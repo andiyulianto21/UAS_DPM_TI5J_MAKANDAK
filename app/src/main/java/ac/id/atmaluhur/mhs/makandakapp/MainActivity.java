@@ -1,14 +1,16 @@
-package com.example.uas_dpm_ti5j_makandakapp;
+package ac.id.atmaluhur.mhs.makandakapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MenuTokoActivity extends AppCompatActivity {
+import com.example.uas_dpm_ti5j_makandakapp.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_toko);
+        setContentView(R.layout.activity_main);
     }
 }

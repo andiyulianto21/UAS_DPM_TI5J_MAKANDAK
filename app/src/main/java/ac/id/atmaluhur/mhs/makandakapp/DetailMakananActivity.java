@@ -1,8 +1,10 @@
-package com.example.uas_dpm_ti5j_makandakapp;
+package ac.id.atmaluhur.mhs.makandakapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.uas_dpm_ti5j_makandakapp.R;
 
 public class DetailMakananActivity extends AppCompatActivity {
 

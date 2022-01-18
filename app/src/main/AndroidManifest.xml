@@ -10,34 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS_DPM_TI5J_MakanDakApp">
         <activity
-            android:name=".TeleponActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.TeleponActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailMakananActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.DetailMakananActivity"
             android:exported="false" />
         <activity
-            android:name=".PencarianActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.PencarianActivity"
             android:exported="false" />
         <activity
-            android:name=".VoucherActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.VoucherActivity"
             android:exported="false" />
         <activity
-            android:name=".ChatActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.ChatActivity"
             android:exported="false" />
         <activity
-            android:name=".CheckoutActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.CheckoutActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuUtamaActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.MenuUtamaActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuTokoActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.MenuTokoActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="ac.id.atmaluhur.mhs.makandakapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

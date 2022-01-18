@@ -1,14 +1,16 @@
-package com.example.uas_dpm_ti5j_makandakapp;
+package ac.id.atmaluhur.mhs.makandakapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.uas_dpm_ti5j_makandakapp.R;
+
+public class ChatActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_chat);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.uas_dpm_ti5j_makandakapp;
+package ac.id.makandakapp;
 
 import org.junit.Test;
 
