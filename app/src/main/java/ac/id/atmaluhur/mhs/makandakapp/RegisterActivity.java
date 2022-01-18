@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.uas_dpm_ti5j_makandakapp.R;
+import ac.id.atmaluhur.mhs.makandakapp.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
