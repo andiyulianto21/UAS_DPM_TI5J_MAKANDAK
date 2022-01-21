@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context="ac.id.atmaluhur.mhs.makandakapp.TeleponActivity">
 
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="334dp"
+        android:layout_height="116dp"
+        android:text="Firman Maulana"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="290dp"
+        android:layout_height="468dp"
+        app:srcCompat="@drawable/wf2"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="133dp"
+        android:layout_height="39dp"
+        android:text="10.23 Min"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="108dp"
+        android:layout_height="83dp"
+        android:tint="#FF0000"
+        app:srcCompat="@drawable/ic_baseline_call_end_24"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="98dp"
+        android:layout_height="89dp"
+        android:tint="#1D6E00"
+        app:srcCompat="@drawable/ic_round_video_call_24"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="554dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
