@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/buttonregisterlogin.xml" value="0.198046875" />
+        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/form.xml" value="0.2640625" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/ic_blob_1.xml" value="0.2640625" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/img_blob_1.xml" value="0.2640625" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_detail_makanan.xml" value="0.22592592592592592" />
+        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_main.xml" value="0.24375" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_pencarian.xml" value="0.22592592592592592" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_register.xml" value="0.176" />
+        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_register.xml" value="0.152" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_telepon.xml" value="0.22592592592592592" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_voucher.xml" value="0.22592592592592592" />
         <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/drawable/aset.xml" value="0.22552083333333334" />
