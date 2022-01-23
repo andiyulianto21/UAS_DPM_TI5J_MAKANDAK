@@ -1,10 +1,8 @@
 package ac.id.atmaluhur.mhs.makandakapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import ac.id.atmaluhur.mhs.makandakapp.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuUtamaActivity extends AppCompatActivity {
 
