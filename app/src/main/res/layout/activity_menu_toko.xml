@@ -1,9 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ac.id.atmaluhur.mhs.makandakapp.MenuTokoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20sp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu dari"
+            android:layout_marginLeft="15sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warung Pak Udin"
+            android:textColor="@color/blueButton"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/NasgorbiasaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:padding="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:layout_editor_absoluteX="20dp">
+
+            <View
+                android:id="@+id/img_nasgorspesial"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:background="@drawable/nasgor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Nasi Goreng Spesial"
+                app:layout_constraintBottom_toBottomOf="@+id/img_nasgorspesial"
+                app:layout_constraintStart_toEndOf="@+id/img_nasgorspesial"
+                app:layout_constraintTop_toTopOf="@+id/img_nasgorspesial" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 21.000"
+                app:layout_constraintStart_toStartOf="@+id/textView10"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <Button
+                android:id="@+id/btnCheckout_nasgorspesial"
+                android:layout_width="15sp"
+                android:layout_height="25sp"
+                android:layout_marginRight="15sp"
+                android:background="@drawable/ic_right_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/nasgorspesialLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:padding="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/NasgorbiasaLayout">
+
+            <View
+                android:id="@+id/img_nasgorbiasa"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/nasgorbiasa"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/harga_nasgorbiasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 15.000"
+                app:layout_constraintStart_toStartOf="@+id/txt_nasgorbiasa"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nasgorbiasa" />
+
+            <TextView
+                android:id="@+id/txt_nasgorbiasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Nasi Goreng Biasa"
+                app:layout_constraintBottom_toBottomOf="@+id/img_nasgorbiasa"
+                app:layout_constraintStart_toEndOf="@+id/img_nasgorbiasa"
+                app:layout_constraintTop_toTopOf="@+id/img_nasgorbiasa" />
+
+            <Button
+                android:id="@+id/btnCheckout_nasgorbiasa"
+                android:layout_width="15sp"
+                android:layout_height="25sp"
+                android:layout_marginRight="15sp"
+                android:background="@drawable/ic_right_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mieayamgledekLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:padding="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/nasgorspesialLayout">
+
+            <View
+                android:id="@+id/img_mieayamgledek"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/mieayamgledek"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/harga_mieayamgledek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 20.000"
+                app:layout_constraintStart_toStartOf="@+id/txt_mieayamgledek"
+                app:layout_constraintTop_toBottomOf="@+id/txt_mieayamgledek" />
+
+            <TextView
+                android:id="@+id/txt_mieayamgledek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Mie Ayam Gledek"
+                app:layout_constraintBottom_toBottomOf="@+id/img_mieayamgledek"
+                app:layout_constraintStart_toEndOf="@+id/img_mieayamgledek"
+                app:layout_constraintTop_toTopOf="@+id/img_mieayamgledek" />
+
+            <Button
+                android:id="@+id/btnCheckout_Miegledek"
+                android:layout_width="15sp"
+                android:layout_height="25sp"
+                android:layout_marginRight="15sp"
+                android:background="@drawable/ic_right_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mieayambaksoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:padding="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/mieayamgledekLayout">
+
+            <View
+                android:id="@+id/img_mieayambakso"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/mieayambakso"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/harga_mieayambakso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 18.000"
+                app:layout_constraintStart_toStartOf="@+id/txt_mieayambakso"
+                app:layout_constraintTop_toBottomOf="@+id/txt_mieayambakso" />
+
+            <TextView
+                android:id="@+id/txt_mieayambakso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Mie Ayam Bakso"
+                app:layout_constraintBottom_toBottomOf="@+id/img_mieayambakso"
+                app:layout_constraintStart_toEndOf="@+id/img_mieayambakso"
+                app:layout_constraintTop_toTopOf="@+id/img_mieayambakso" />
+
+            <Button
+                android:id="@+id/btnCheckout_Miebakso"
+                android:layout_width="15sp"
+                android:layout_height="25sp"
+                android:layout_marginRight="15sp"
+                android:background="@drawable/ic_right_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="@drawable/button_checkout"
+            android:letterSpacing="0.1"
+            android:text="CHECK OUT"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
