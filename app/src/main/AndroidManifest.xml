@@ -32,12 +32,15 @@
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.MenuTokoActivity"
+            android:parentActivityName=".LoginActivity"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.RegisterActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
