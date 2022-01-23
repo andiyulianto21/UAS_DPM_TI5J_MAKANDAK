@@ -3,23 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/buttonregisterlogin.xml" value="0.198046875" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/form.xml" value="0.2640625" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/ic_blob_1.xml" value="0.2640625" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/img_blob_1.xml" value="0.2640625" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_detail_makanan.xml" value="0.22592592592592592" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_login.xml" value="0.176" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_main.xml" value="0.24375" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_pencarian.xml" value="0.22592592592592592" />
-        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_register.xml" value="0.152" />
+        <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_register.xml" value="0.12" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_telepon.xml" value="0.22592592592592592" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_voucher.xml" value="0.22592592592592592" />
-        <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/drawable/aset.xml" value="0.22552083333333334" />
-        <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
-        <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/layout/activity_chat.xml" value="0.12771739130434784" />
-        <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/layout/activity_detail_makanan.xml" value="0.15" />
-        <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/layout/activity_menu_toko.xml" value="0.12771739130434784" />
-        <entry key="..\:/Users/ACER/Videos/UAS/UAS_DPM_TI5J_MAKANDAK/app/src/main/res/layout/activity_telepon.xml" value="0.11" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_chat.xml" value="0.3333333333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_chat2.xml" value="0.22" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_checkout.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_detail_makanan.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_login.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_menu_toko.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_menu_utama.xml" value="0.22" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_pencarian.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_register.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_telepon.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/activity_voucher.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/Android Studio/UAS_DPM_TI5J_MAKANDAK-master/app/src/main/res/layout/cahatest.xml" value="0.17395833333333333" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_chat.xml" value="0.23097826086956522" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_checkout.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_detail_makanan.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_login.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_menu_toko.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_menu_utama.xml" value="0.27011494252873564" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_pencarian.xml" value="0.178125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_register.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_telepon.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/activity_voucher.xml" value="0.1703125" />
+        <entry key="..\:/Kampus/UAS/UAS_DPM_TI5J_MAKANDAK-aprizal/app/src/main/res/layout/content_chat.xml" value="0.178125" />
       </map>
     </option>
   </component>
