@@ -149,14 +149,22 @@
             android:padding="15sp"
             app:layout_constraintTop_toBottomOf="@+id/nasgorspesialLayout">
 
-            <View
-                android:id="@+id/img_mieayamgledek"
+            <Button
+                android:id="@+id/btnMieayamgledek"
                 android:layout_width="80sp"
                 android:layout_height="60sp"
-                android:layout_marginStart="4dp"
                 android:background="@drawable/mieayamgledek"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"/>
+
+<!--            <View-->
+<!--                android:id="@+id/img_mieayamgledek"-->
+<!--                android:layout_width="80sp"-->
+<!--                android:layout_height="60sp"-->
+<!--                android:layout_marginStart="4dp"-->
+<!--                android:background="@drawable/mieayamgledek"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
 
             <TextView
                 android:id="@+id/harga_mieayamgledek"
@@ -166,7 +174,7 @@
                 android:textColor="@color/blueButton"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/img_mieayamgledek"
+                app:layout_constraintBottom_toBottomOf="@+id/btnMieayamgledek"
                 app:layout_constraintStart_toStartOf="@+id/txt_mieayamgledek"
                 app:layout_constraintTop_toBottomOf="@+id/txt_mieayamgledek" />
 
@@ -179,9 +187,10 @@
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/img_mieayamgledek"
-                app:layout_constraintStart_toEndOf="@+id/img_mieayamgledek"
-                app:layout_constraintTop_toTopOf="@+id/img_mieayamgledek" />
+                android:layout_marginBottom="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/btnMieayamgledek"
+                app:layout_constraintStart_toEndOf="@+id/btnMieayamgledek"
+                app:layout_constraintTop_toTopOf="@+id/btnMieayamgledek" />
 
             <Button
                 android:id="@+id/btnCheckout_Miegledek"

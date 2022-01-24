@@ -67,20 +67,15 @@
         app:layout_constraintVertical_bias="0.451"
         app:srcCompat="@drawable/kotak1" />
 
-    <ImageButton
-        android:id="@+id/ButtonKirim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="8dp"
-        android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.215"
-        app:srcCompat="@drawable/group141" />
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/group141"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView4"
@@ -135,28 +130,25 @@
         app:layout_constraintVertical_bias="0.959"
         app:srcCompat="@drawable/rectangle36" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/send_hor_fill"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
-        app:layout_constraintHorizontal_bias="0.978"
-        app:layout_constraintStart_toStartOf="@+id/imageView17"
-        app:layout_constraintTop_toTopOf="@+id/imageView17"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/send_hor_fill" />
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
 
     <EditText
         android:id="@+id/Ketik_disini"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Ketik Disini"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
-        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toTopOf="@+id/imageView17"
         app:layout_constraintVertical_bias="0.59" />
