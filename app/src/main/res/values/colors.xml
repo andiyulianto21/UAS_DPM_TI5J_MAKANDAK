@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blueText">#2E4C6D</color>
     <color name="blueButton">#2E4C6D</color>
+    <color name="homeblue">#ccd7e2</color>
 </resources>
