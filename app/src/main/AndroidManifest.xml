@@ -26,6 +26,7 @@
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.CheckoutActivity"
+            android:parentActivityName=".MenuTokoActivity"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.MenuUtamaActivity"
