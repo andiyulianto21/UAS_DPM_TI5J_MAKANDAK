@@ -11,9 +11,11 @@
         android:theme="@style/Theme.UAS_DPM_TI5J_MakanDakApp">
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.TeleponActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.DetailMakananActivity"
+            android:parentActivityName=".MenuTokoActivity"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.PencarianActivity"

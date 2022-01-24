@@ -21,20 +21,14 @@ public class MenuUtamaActivity extends AppCompatActivity {
         btnLihatDetail = findViewById(R.id.btnLihatDetail);
         btnChat = findViewById(R.id.btnChat);
 
-        btnLihatDetail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MenuUtamaActivity.this, MenuTokoActivity.class);
-                startActivity(i);
-            }
+        btnLihatDetail.setOnClickListener(view -> {
+            Intent i = new Intent(MenuUtamaActivity.this, MenuTokoActivity.class);
+            startActivity(i);
         });
 
-        btnChat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MenuUtamaActivity.this, ChatActivity.class);
-                startActivity(i);
-            }
+        btnChat.setOnClickListener(view -> {
+            Intent toChat = new Intent(MenuUtamaActivity.this, ChatActivity.class);
+            startActivity(toChat);
         });
     }
 }

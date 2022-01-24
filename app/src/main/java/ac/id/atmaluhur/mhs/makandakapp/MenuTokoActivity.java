@@ -12,7 +12,7 @@ import ac.id.atmaluhur.mhs.makandakapp.R;
 
 public class MenuTokoActivity extends AppCompatActivity {
 
-    Button btnCheckout_nasgorbiasa;
+    Button btnCheckout_nasgorbiasa, btnMieayamgledek;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +23,16 @@ public class MenuTokoActivity extends AppCompatActivity {
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.blueButton)));
 
         btnCheckout_nasgorbiasa = findViewById(R.id.btnCheckout_nasgorbiasa);
+        btnMieayamgledek = findViewById(R.id.btnMieayamgledek);
 
-        btnCheckout_nasgorbiasa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MenuTokoActivity.this, CheckoutActivity.class);
-                startActivity(i);
-            }
+        btnCheckout_nasgorbiasa.setOnClickListener(view -> {
+            Intent i = new Intent(MenuTokoActivity.this, CheckoutActivity.class);
+            startActivity(i);
+        });
+
+        btnMieayamgledek.setOnClickListener(view -> {
+            Intent toDetailMakanan = new Intent(MenuTokoActivity.this, DetailMakananActivity.class);
+            startActivity(toDetailMakanan);
         });
 
     }
