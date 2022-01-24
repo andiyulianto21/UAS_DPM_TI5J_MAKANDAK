@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/button_bayar.xml" value="0.198046875" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/button_checkout.xml" value="0.198046875" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/drawable/buttonregisterlogin.xml" value="0.198046875" />
@@ -19,6 +20,8 @@
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_register.xml" value="0.176" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_telepon.xml" value="0.22592592592592592" />
         <entry key="..\:/Java Android/UAS_DPM_TI5J_MakanDakApp/app/src/main/res/layout/activity_voucher.xml" value="0.22592592592592592" />
+=======
+>>>>>>> 2a7f49ca7247495a859af73846227d0e04904966
       </map>
     </option>
   </component>
