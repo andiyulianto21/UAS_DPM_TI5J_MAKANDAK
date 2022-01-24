@@ -23,6 +23,7 @@
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.ChatActivity"
+            android:parentActivityName=".MenuUtamaActivity"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.CheckoutActivity"
@@ -30,10 +31,11 @@
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.MenuUtamaActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.MenuTokoActivity"
-            android:parentActivityName=".LoginActivity"
+            android:parentActivityName=".MenuUtamaActivity"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.LoginActivity"
