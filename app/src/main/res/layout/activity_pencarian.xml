@@ -6,4 +6,244 @@
     android:layout_height="match_parent"
     tools:context="ac.id.atmaluhur.mhs.makandakapp.PencarianActivity">
 
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Lokasi"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Makanan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="138dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Temukan"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan Favoritmu"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_checkout"
+        android:letterSpacing="0.2"
+        android:text="Search"
+        android:textSize="18sp"
+        app:flow_verticalAlign="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/rectangle19" />
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FEF6ED"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/lagiMakanApa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Mie Ayam Gledek"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Tipe"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Restoran"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Menu"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="1 Km"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="95sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Lebih dari 10 Km"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="95sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Kurang dari 10 Km"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="65sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Kue"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Sup"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Hidangan Pembuka"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toStartOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Hidangan Penutup"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintTop_toTopOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="#FEF6ED"
+        android:letterSpacing="0.1"
+        android:text="Menu Utama"
+        android:textAllCaps="false"
+        android:textColor="#AF6A1C"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="@+id/button12" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
