@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ac.id.atmaluhur.mhs.makandakapp.VoucherActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="353dp"
+        android:layout_height="46dp"
+        android:background="#3F51B5"
+        android:text="Check Out"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="413dp"
+        android:layout_height="56dp"
+        android:background="#3F51B5"
+        android:text="<- Voucher"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voucher Promo"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/kepalanarto"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="354dp"
+        android:layout_height="148dp"
+        android:background="#3F51B5"
+        android:text="Special Deal For December"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="354dp"
+        android:layout_height="148dp"
+        android:background="#009688"
+        android:text="Special Deal For December"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:text="Order"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:text="Order"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
