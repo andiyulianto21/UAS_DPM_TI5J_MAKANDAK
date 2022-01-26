@@ -76,7 +76,7 @@
         app:srcCompat="@drawable/rectangle19" />
 
     <ImageButton
-        android:id="@+id/search"
+        android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -96,10 +96,9 @@
         android:text="Lagi pengen makan apa hari ini?"
         android:textColor="#FFC107"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/search"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSearch"
+        app:layout_constraintStart_toEndOf="@+id/btnSearch"
         app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
     <ImageView

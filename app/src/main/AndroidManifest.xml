@@ -19,9 +19,11 @@
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.PencarianActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.VoucherActivity"
+            android:parentActivityName=".CheckoutActivity"
             android:exported="false" />
         <activity
             android:name="ac.id.atmaluhur.mhs.makandakapp.ChatActivity"

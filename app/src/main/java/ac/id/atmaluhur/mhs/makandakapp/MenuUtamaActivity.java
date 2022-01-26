@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MenuUtamaActivity extends AppCompatActivity {
 
     Button btnLihatDetail;
-    ImageButton btnChat;
+    ImageButton btnChat, btnSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MenuUtamaActivity extends AppCompatActivity {
 
         btnLihatDetail = findViewById(R.id.btnLihatDetail);
         btnChat = findViewById(R.id.btnChat);
+        btnSearch = findViewById(R.id.btnSearch);
 
         btnLihatDetail.setOnClickListener(view -> {
             Intent i = new Intent(MenuUtamaActivity.this, MenuTokoActivity.class);
@@ -29,6 +30,11 @@ public class MenuUtamaActivity extends AppCompatActivity {
         btnChat.setOnClickListener(view -> {
             Intent toChat = new Intent(MenuUtamaActivity.this, ChatActivity.class);
             startActivity(toChat);
+        });
+
+        btnSearch.setOnClickListener(view -> {
+            Intent toSearch = new Intent(MenuUtamaActivity.this, PencarianActivity.class);
+            startActivity(toSearch);
         });
     }
 }

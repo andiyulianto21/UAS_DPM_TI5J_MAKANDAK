@@ -6,4 +6,115 @@
     android:layout_height="match_parent"
     tools:context="ac.id.atmaluhur.mhs.makandakapp.VoucherActivity">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="320sp"
+        android:layout_height="60sp"
+        android:background="@drawable/button_checkout"
+        android:letterSpacing="0.1"
+        android:text="Check Out"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Voucher Promo"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/button16"
+        android:layout_width="354dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/blueButton"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button16"
+        app:layout_constraintStart_toStartOf="@+id/button16"
+        app:srcCompat="@drawable/kepalanarto" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:text="Special Deal For\nDesember"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/button16" />
+
+    <Button
+        android:id="@+id/buttonorder2"
+        android:layout_width="100sp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:text="Order Now"
+        android:textColor="@color/blueButton"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="354dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="30dp"
+        android:background="#75CCB7"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <TextView
+        android:id="@+id/textView230"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Special Deal For\nDesember"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view_2"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toTopOf="@+id/view_2" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="100sp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:text="Order Now"
+        android:textAllCaps="false"
+        android:textColor="@color/blueButton"
+        app:layout_constraintStart_toStartOf="@+id/textView230"
+        app:layout_constraintTop_toBottomOf="@+id/textView230" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
